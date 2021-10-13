@@ -13,3 +13,5 @@ RUN \
  dos2unix -n /init.sh /initx.sh && chmod +x /initx.sh
 
 ENTRYPOINT ["/initx.sh"]
+
+ENV TZ Asia/Shanghai
